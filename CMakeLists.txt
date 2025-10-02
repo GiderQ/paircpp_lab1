@@ -7,4 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(paircpp_lab1
         src/main.cpp
+        src/DeckManager.cpp
         )
