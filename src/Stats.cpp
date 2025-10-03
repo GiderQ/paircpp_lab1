@@ -40,7 +40,7 @@ void printStatistics(const Statistics& stats) {
     std::cout << "\n--- Statistics ---\n";
     std::cout << "Total stacks: " << stats.totalStacks << "\n";
 
-    std::cout << std::fixed << std::setprecision(2);
+    std::cout << std::fixed << std::setprecision(3);
 
     for (auto& p : stats.frequency) {
         double perc = (100.0 * p.second) / stats.totalStacks;
