@@ -12,4 +12,4 @@ struct Card
     }
 };
 
-#endif // Card_h
+#endif

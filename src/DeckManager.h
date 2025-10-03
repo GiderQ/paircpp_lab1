@@ -1,9 +1,9 @@
-#ifndef DeckManager_h
-#define DeckManager_h
+#ifndef DECKMANAGER_H
+#define DECKMANAGER_H
 
 #include "Card.h"
-#include <random>
 #include <vector>
+#include <random>
 
 class DeckManager {
 private:
@@ -20,7 +20,6 @@ private:
 public:
     DeckManager(int suits);
     Card operator()();
-    
 };
 
-#endif // DeckManager_h
+#endif // DECKMANAGER_H

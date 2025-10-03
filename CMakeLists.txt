@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.29)
 
 project(paircpp_lab1)
 
@@ -8,4 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(paircpp_lab1
         src/main.cpp
         src/DeckManager.cpp
+        src/Stats.cpp
         )
