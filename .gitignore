@@ -44,3 +44,4 @@ CMakeSettings.json
 /cmake-build-debug/
 /build/
 /.vscode/
+/out/
