@@ -1,5 +1,5 @@
-#ifndef Card_h
-#define Card_h
+#ifndef CARD_H
+#define CARD_H
 
 #include <compare>
 
@@ -12,4 +12,4 @@ struct Card
     }
 };
 
-#endif
+#endif // CARD_H
